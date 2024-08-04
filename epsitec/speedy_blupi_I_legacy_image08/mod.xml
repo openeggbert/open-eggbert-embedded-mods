@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod>
+   <modelVersion>1.0.0</modelVersion>
+   <groupId>epsitec</groupId>
+   <modId>speedy-blupi-I-legacy-image08</modId>
+   <version>1.0.0</version>
+   <packaging>EGM</packaging>
+   <type>IMAGE08</type>
+   <featureLevel>SPEEDY_BLUPI_I</featureLevel>
+   <name>Legacy 8 bit BMP graphics for Speedy Blupi I</name>
+   <description>Legacy 8 bit BMP graphics for Speedy Blupi I</description>
+
+   <files>
+      <file>IMAGE08/INIT.BLP</file>
+   </files>
+    
+   <stores>
+       <store>
+           <id>releases</id>
+           <name>open-eggbert-releases-store</name>
+           <url>https://store.openeggbert.com/releases</url>
+       </store>
+       <store>
+           <id>snapshots</id>
+           <name>open-eggbert-snapshots-store</name>
+           <url>https://store.openeggbert.com/snapshots</url>
+       </store>
+   </stores>
+</mod>

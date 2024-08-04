@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod>
+   <modelVersion>1.0.0</modelVersion>
+   <groupId>epsitec</groupId>
+   <modId>speedy-blupi-II-legacy-full</modId>
+   <version>1.0.0</version>
+   <packaging>EGM</packaging>
+   <type>FULL</type>
+   <featureLevel>SPEEDY_BLUPI_II</featureLevel>
+   <name>Speedy Blupi II (legacy)</name>
+   <description>Speedy Blupi II</description>
+
+   <files>
+   </files>
+      <imports>
+       <import>
+   <groupId>epsitec</groupId>
+   <modId>speedy-blupi-II-legacy-image08</modId>
+   <version>1.0.0</version>
+       </import>
+   </imports>
+
+   <stores>
+       <store>
+           <id>releases</id>
+           <name>open-eggbert-releases-store</name>
+           <url>https://store.openeggbert.com/releases</url>
+       </store>
+       <store>
+           <id>snapshots</id>
+           <name>open-eggbert-snapshots-store</name>
+           <url>https://store.openeggbert.com/snapshots</url>
+       </store>
+   </stores>
+</mod>
